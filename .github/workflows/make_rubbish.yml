@@ -1,7 +1,10 @@
+name: Greeting from Mona
 on: push
+
 jobs:
- make_log:
-  runs-on: windows-latest
-  steps:
-   run: 
-   echo a>in.in
+  my-job:
+    name: My Job
+    runs-on: windows-latest
+    steps:
+    - run: |
+        echo oh,fuck.
