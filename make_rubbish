@@ -1,0 +1,7 @@
+on: push
+jobs:
+ make_log:
+  runs-on: windows-latest
+  steps:
+   run: 
+   echo a>in.in
